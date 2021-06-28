@@ -1,0 +1,40 @@
+<html>
+<body>
+<div align="center">
+<H2>FORMUALIRE</H2>
+<form method="post" action="validation.php">
+<table>
+  <tr> <td> Nom :		</td>   <td> <input name="nomUtilisateur">        	</td> </tr>
+  <tr> <td> Prenom :      	</td>   <td> <input name="prenomUtilisateur">        	</td> </tr>
+  <tr> <td> Identifiant :       </td>   <td> <input name="identifiantUtilisateur">      </td> </tr>
+  <tr> <td> mot de passe :      </td>   <td> <input type="password" name="mp1">   	</td> </tr>
+  <tr> <td> Mail :		</td>   <td> <input name="mailsUtilisateur">        	</td> </tr>
+  <tr> <td> Telephone :		</td>   <td> <input name="telUtilisateur">        	</td> </tr>
+  <tr> <td> Profile :		</td>   <td>
+											
+						<select name="profileUtilisateur">
+                                                <option value="etudiant"> ETUDIANT </option>
+                                                <option value="enseignant"> ENSEIGNANT </option>
+                                                <option value="agent"> AGENT ADMINISTRATIF </option>
+                                            	</select>  
+
+					</td>   </tr>
+  <tr> <td> Selectionner un fichier </td>   <td>  <input name="file" type="file" />    </td> </tr>
+  <tr> <td>                   	    </td>   <td>  <input name="valider" type="submit" value="Envoyer">	</td> </tr>
+</table>
+</form>
+<table>
+<tr>
+<td>
+CONSIGNES:<BR> 
+-  Choisissez des mots de passe num&eacute;riques <BR>
+-  Minimum 4 digits, maximum 6 digits <BR>
+-  L'identifiant ne doit pas contenir des caract&egrave;res sp&eacute;ciaux. <BR>
+-  Plusieurs adresses mails sont acceptables. <BR>
+-  Le num&eacute;ro de t&eacute;l&eacute;phone doit &ecirc;tre de la forme (+216)708985654. <BR>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
